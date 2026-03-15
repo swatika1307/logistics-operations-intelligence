@@ -27,17 +27,16 @@ The system helps identify:
 
 ---
 
+## Dashboard Preview
+![Executive Overview](assets/executive_overview.png)
+
+---
+
 ## System Architecture
 
 The project follows a layered analytics architecture commonly used in modern business intelligence systems.
 
-Operational Data
-↓
-SQL Data Model
-↓
-KPI & Intelligence Layer
-↓
-Power BI Dashboard
+Operational Data --> SQL Data Model --> KPI & Intelligence Layer --> Power BI Dashboard
 
 Data is first structured in relational tables, then transformed into analytical views using SQL, and finally visualized in Power BI.
 
